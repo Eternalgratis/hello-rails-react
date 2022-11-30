@@ -82,7 +82,7 @@ If you installed git you can clone the code to your machine, or download a ZIP o
   - run rspec spec
 
   
-## Author(s)
+## Author
 👤 **Apuabi Titilope**
 
 - GitHub: [@Eternalgratis](https://github.com/Eternalgratis)
@@ -107,7 +107,6 @@ Give a ⭐ if you like this project!
 
 
 ## ❓ FAQ
-
 
 #### [Question_1] Do I need to have a program to manage the database. 
 
