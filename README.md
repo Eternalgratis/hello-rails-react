@@ -1,94 +1,156 @@
 # README
 
-# HELLO-RAILS-REACT-APP
 
-Hello-Rails-React-App is a simple web application that displays greetings at random each time the browser reloads
+<a name="readme-top"></a>
 
-## Built With
+<div align="center">
 
-- Ruby
-- Rails
-- Postgresql
-- Reacts
-- Linters
+  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <br/>
 
-### Key Features
+  <h3><b>Microverse README Template</b></h3>
 
-- [API endpoint]
-- [Greeting link]
-- [Functionality to Generate a random greetings messages for users ]
+</div>
 
+<!-- TABLE OF CONTENTS -->
 
-# Live Presentation link
-[Live Link](#)
+# 📗 Table of Contents
 
-## Getting Started
--To get a local copy up and running follow these simple example steps.
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+- [👥 Authors](#authors)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
+
+<!-- PROJECT DESCRIPTION -->
+
+# 📖 [Hello Rails React] <a name="about-project"></a>
+
+> Describe your project in 1 or 2 sentences.
+
+**[Hello rails react]** is a simple web application that displays greetings at random each time the browser reloads
+
+## 🛠 Built With <a name="built-with"></a>
+
+### Tech Stack <a name="tech-stack"></a>
+
+> Describe the tech stack and include only the relevant sections that apply to your project.
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://reactjs.org/">React.js</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li><a href="https://rubyonrails.org/">Ruby on Rails</a></li>
+  </ul>
+</details>
+
+<details>
+<summary>Database</summary>
+  <ul>
+    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+  </ul>
+</details>
+
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+> Describe between 1-3 key features of the application.
+
+- **[This app has API end points]**
+- **[It fetches from the API and renders the data]**
+- **[It renders random greetings on refreshing and navigating to the './message']**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+> Add a link to your deployed project.
+
+- Coming Soon
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+> Describe how a new developer could make use of your project.
+
+To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-- A Command Line Interface.
-- Having Ruby installed.
-- Setup Rails
-- Postgresql
-- A code editor like Visual Studio Clone.
-- Git installed.
-
-To check if you have Git, Postgres and Ruby installed you can use the commands below:
-
- ```sh
-   $ git --version
-   $ ruby --version && irb
-   ```
-If you don't have Ruby, you can find a complete list of ways to install Ruby, including using third-party tools like rvm, see:
-
-(https://www.ruby-lang.org/en/downloads/)
-### 🛠️ Installation & Set Up
-
-If you installed git you can clone the code to your machine, or download a ZIP of all the files directly.
+In order to run this project you need:
+- [Ruby](https://www.ruby-lang.org/en/)
+- [Postgresql](https://www.postgresql.org/)
+- [Node.js](https://nodejs.org/en/)
+- [Yarn](https://yarnpkg.com/)
+- [Rails](https://rubyonrails.org/)
 
 
-- Open the [Repository Link](https://github.com/Eternalgratis/hello-rails-react) of this project in GitHub.
+### Setup
 
-- Once the files are on your machine, open capstone-ruby folder in [Visual Studio Code](https://code.visualstudio.com/).
+Clone this repository to your desired folder by running these commands:
+- $ git clone https://github.com/Eternalgratis/hello-rails-react.git
+
+
 
 ### Install
- Start by cloning the repository.
- 
-- https://github.com/Eternalgratis/hello-rails-react.git
 
-  Navigate to the created folder.
+Install this project with:
+Run
 
-- Initialize your project with Git.
-- Make sure that your project has Postgres database set up.
-- Run rails server and visit http://127.0.0.1:3000/ in your browser!
+bundle install
 
-  ### run the following in your terminal:
-  - gem install rails
-  - gem install pg
-  - bundle install (use this whenever you want add a gem in your gem file)
-  - rails db:create
-  - change your database password to suit yours in database.yml
-  
-  
+To get all the gems required for the project
+
+Then, 
+run npm install
+
 
 ### Usage
---Once you have your repository cloned on your machine, feel free to modify it as needed.
-- To add your own page
 
-### Testing with Rspec and Capybara
-  - In your terminal run > 
-     bundle exec rspec
-  - run rspec spec
+To run the project, execute the following command:
+- ./bin/dev 
 
-  
-## Author
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+
+
+
+> Mention all of the collaborators of this project.
+## 👥 Authors <a name="authors"></a>
 👤 **Apuabi Titilope**
 
 - GitHub: [@Eternalgratis](https://github.com/Eternalgratis)
 - Twitter: [@eternalgratis](https://twitter.com/eternalgratis)
 - LinkedIn: [Apuabi Titilope](https://www.linkedin.com/in/titilope-apuabi/)
 
+
+## Acknowledgment
+- Hat tip to anyone whose helped me.
 
 ## 🤝 Contributing
 
@@ -98,23 +160,12 @@ Feel free to check the [issues page](https://github.com/Eternalgratis/hello-rail
 
 ## Show your support
 
-Give a ⭐ if you like this project!
+Give a ⭐️ if you like this project!
 
-## Acknowledgments
+## :memo: License
 
--Hat tip to all documentations used
--Inspiration 
+This project is [MIT](./MIT.md) licensed.
 
+_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
-## ❓ FAQ
-
-#### [Question_1] Do I need to have a program to manage the database. 
-
-##### [Answer_1] Yes you need postgesql or sqllite ,check installation online.
-
-#### [Question_2] Can I access the owner database .
-
-##### [Answer_2]No because its on their local database .
-
-## 📝 License
-This project is MIT licensed.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
